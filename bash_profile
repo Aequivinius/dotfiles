@@ -12,5 +12,5 @@ export PS2=' > '
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 alias wadado='_wadado() { echo "$@" | sed '/^$/d' | sort -R | head -n 3; }; _wadado'
-alias cl='ssh -Y colic@login.cl.uzh.ch'
+alias cl='ssh -Y xxx'
 alias sv='source venv/bin/activate'
