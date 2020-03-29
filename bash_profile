@@ -1,3 +1,5 @@
+#!/bin/bash
+
 EMOJIS=(🐶 🐱 🐨 🐸 🐹)
 
 # function that selects and return a random element from the EMOJIS set
@@ -11,6 +13,13 @@ export PS1='$(RANDOM_EMOJI) '
 export PS2=' > '
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
+export PATH="$PATH:/Users/Qua/Library/Python/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin"
+
 alias wadado='_wadado() { echo "$@" | sed '/^$/d' | sort -R | head -n 3; }; _wadado'
-alias cl='ssh -Y xxx'
+
+source ~/.dotfiles/variables
+alias cl="ssh -Y $CLSERVER"
 alias sv='source venv/bin/activate'
+alias python2='/usr/local/bin/python2.7'
+alias python='/usr/local/bin/python3.8'
+alias pip='pip3'
