@@ -20,6 +20,4 @@ alias wadado='_wadado() { echo "$@" | sed '/^$/d' | sort -R | head -n 3; }; _wad
 source ~/.dotfiles/variables
 alias cl="ssh -Y $CLSERVER"
 alias sv='source venv/bin/activate'
-alias python2='/usr/local/bin/python2.7'
-alias python='/usr/local/bin/python3.8'
 alias pip='pip3'
