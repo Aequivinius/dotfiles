@@ -18,6 +18,6 @@ export PATH="$PATH:/Users/Qua/Library/Python/3.8/bin:/Library/Frameworks/Python.
 alias wadado='_wadado() { echo "$@" | sed '/^$/d' | sort -R | head -n 3; }; _wadado'
 
 source ~/.dotfiles/variables
-alias cl="ssh -Y $CLSERVER"
+alias cl='ssh $CLSERVER -t \"bash\"'
 alias sv='source venv/bin/activate'
 alias pip='pip3'
