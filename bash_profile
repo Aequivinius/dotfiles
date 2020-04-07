@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EMOJIS=(🐶 🐱 🐨 🐸 🐹)
+EMOJIS=(🐶 🐱 🐨 🐸 🐹 🐰)
 
 # function that selects and return a random element from the EMOJIS set
 RANDOM_EMOJI() {
