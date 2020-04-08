@@ -8,7 +8,7 @@
   * `brew cask install osxfuse`
   * `brew install sshfs`
 * python things
-  * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise urllib gets cringy
+  * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
 
 ### Stuff I always forget
-`pipenv install jupyter` and then `pipenv run jupyter`
+* `pipenv install jupyter` and then `pipenv run jupyter`
