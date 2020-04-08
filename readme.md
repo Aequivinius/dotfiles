@@ -11,4 +11,5 @@
   * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise urllib gets cringy
 
 ### Stuff I always forget
-`pipenv install jupyter` and then `pipenv run jupyter`
+* `pipenv install jupyter` and then `pipenv run jupyter`
+* `:%!python -m json.tool`
