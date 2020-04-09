@@ -13,3 +13,4 @@
 ### Stuff I always forget
 * `pipenv install jupyter` and then `pipenv run jupyter`
 * `:%!python -m json.tool`
+* Use `vim_launcher.app` on OSX to open files with right-click in vim
