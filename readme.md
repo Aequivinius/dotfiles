@@ -4,7 +4,7 @@
 
 ### Stuff I like to have on a new OSX machine
 * Change to `/bin/zsh` in Terminal settings, install fonts
-* Setting up my [zsh](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8) (but use [powerlevel10k](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8) instead 🐝)
+* Setting up my [zsh](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8) (but use [powerlevel10k](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb) instead 🐝)
 
 * `ssh` things, so I can mount ssh things in finder (explained [here](https://jonathansblog.co.uk/sshfs-mount-remote-drive-in-finder))
   * `brew cask install osxfuse`
