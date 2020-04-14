@@ -74,7 +74,7 @@ plugins=(git
          zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-source .p10k.zsh
+source ~/.p10k.zsh
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 # User configuration
 
