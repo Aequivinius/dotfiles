@@ -2,5 +2,6 @@ data
 Pipfile*
 *.ipynb
 *.pyc
+*.py.swp
 ._*
 __*

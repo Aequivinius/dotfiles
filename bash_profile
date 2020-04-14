@@ -15,6 +15,12 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 export PATH="$PATH:/Users/Qua/Library/Python/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin"
 
+# powerline
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /Users/Qua/Library/Python/3.8/lib/python/site-packages/powerline/bindings/bash/powerline.sh
+
 alias wadado='_wadado() { echo "$@" | sed '/^$/d' | sort -R | head -n 3; }; _wadado'
 
 source ~/.dotfiles/variables
