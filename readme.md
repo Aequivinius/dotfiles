@@ -20,3 +20,4 @@
 
 ### TODO
 * generate random emoji for os_icon
+* generate animal emoji for time according to TCM
