@@ -101,3 +101,18 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="$PATH:/Users/Qua/Library/Python/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin"
+
+alias wadado='_wadado() { echo "$@" | sed "/^$/d" | sort -R | head -n 3; }; _wadado'
+
+source ~/.dotfiles/variables
+alias cl='ssh -t $CLS ssh -t $CLD'
+alias sv='source .venv/bin/activate'
+alias pip='pip3'
+alias mcl='sshfs $CLS:/mnt/storage/clwork/users/colic ~/cl'
+ 
+alias np='source ~/.dotfiles/new_project.sh'
+ 
+alias gst='git status'
+alias goverwrite='git fetch --all; git reset --hard origin/master'
