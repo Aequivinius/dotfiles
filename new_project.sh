@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git init
-# pipenv install jupyter
+pipenv install jupyter
 
 echo "Copied flake8 pre-commit hook"
 cp ~/.dotfiles/pre-commit .git/hooks/pre-commit
