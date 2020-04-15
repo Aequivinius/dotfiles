@@ -21,3 +21,4 @@
 ### TODO
 * generate random emoji for os_icon
 * generate animal emoji for time according to TCM
+* git prompt w/o git icon and shorten if master branch
