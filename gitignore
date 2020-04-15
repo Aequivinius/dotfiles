@@ -1,6 +1,6 @@
 data
-Pipfile*
-*.ipynb
+Pipfile.lock
+*.ipynb_checkpoints
 *.pyc
 *.py.swp
 ._*
