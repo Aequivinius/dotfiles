@@ -73,6 +73,8 @@ plugins=(git
          zsh-syntax-highlighting
          zsh-autosuggestions)
 
+DISABLE_MAGIC_FUNCTIONS=true
+
 source $ZSH/oh-my-zsh.sh
 source ~/.p10k.zsh
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true

@@ -8,4 +8,7 @@ ln -nsf $DIR/bashrc ~/.bashrc
 # echo "Installing python stuff"
 # pip install flake8
 
+# echo "Installing vim plugins"
+# git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki
+
 echo "Login in anew!"
