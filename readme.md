@@ -19,7 +19,6 @@
 * Use `vim_launcher.app` on OSX to open files with right-click in vim
 
 ### TODO
-* Fix pasting behaviour in shell
 * generate random emoji for os_icon
 * generate animal emoji for time according to TCM
 * git prompt w/o git icon and shorten if master branch
