@@ -12,9 +12,6 @@
 
 * python things
   * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
-
-### Stuff I always forget how to do
-* `pipenv install jupyter` and then `pipenv run jupyter`
 * Use `vim_launcher.app` on OSX to open files with right-click in vim
 
 ### TODO
