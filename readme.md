@@ -12,14 +12,9 @@
 
 * python things
   * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
-
-### Stuff I always forget how to do
-* `pipenv install jupyter` and then `pipenv run jupyter`
-* `:%!python -m json.tool`
 * Use `vim_launcher.app` on OSX to open files with right-click in vim
 * `defaults write com.microsoft.Powerpoint AppleLanguages '("pt-BR")'`
 
 ### TODO
 * generate random emoji for os_icon
 * generate animal emoji for time according to TCM
-* git prompt w/o git icon and shorten if master branch
