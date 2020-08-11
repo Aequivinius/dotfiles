@@ -17,6 +17,7 @@
 * `pipenv install jupyter` and then `pipenv run jupyter`
 * `:%!python -m json.tool`
 * Use `vim_launcher.app` on OSX to open files with right-click in vim
+* `defaults write com.microsoft.Powerpoint AppleLanguages '("pt-BR")'`
 
 ### TODO
 * generate random emoji for os_icon
