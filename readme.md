@@ -14,6 +14,13 @@
   * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
 * Use `vim_launcher.app` on OSX to open files with right-click in vim
 
+### python
+* henceforth, use poetry
+
+### SVN
+* `svn import -m "messagee" file_name http://path/to/svn/file`
+* `svn add `svn status . | grep "^?" | awk '{print $2}'`
+
 ### TODO
 * generate random emoji for os_icon
 * generate animal emoji for time according to TCM
