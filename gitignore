@@ -4,6 +4,5 @@ Pipfile.lock
 *.pyc
 *.py.swp
 ._*
-__*
 .idea/*
 .DS_Store
