@@ -104,7 +104,7 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="$PATH:/Users/Qua/Library/Python/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin"
+export PATH="/usr/local/opt/python/libexec/bin:/Users/Qua/Library/Python/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:$HOME/.poetry/bin:$PATH"
 
 alias wadado='_wadado() { echo "$@" | sed "/^$/d" | sort -R | head -n 3; }; _wadado'
 
