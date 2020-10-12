@@ -13,6 +13,7 @@
 * python things
   * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
 * Use `vim_launcher.app` on OSX to open files with right-click in vim
+* `defaults write com.microsoft.Powerpoint AppleLanguages '("pt-BR")'`
 
 ### python
 * henceforth, use poetry
