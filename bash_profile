@@ -33,3 +33,5 @@ alias np='source ~/.dotfiles/new_project.sh'
 
 alias gst='git status'
 alias goverwrite='git fetch --all; git reset --hard origin/master'
+
+export PATH="$HOME/.poetry/bin:$PATH"

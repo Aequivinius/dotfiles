@@ -16,6 +16,13 @@
 * `defaults write com.microsoft.Powerpoint AppleLanguages '("pt-BR")'`
 * `brew install git` and relaunch to update
 
+### python
+* henceforth, use poetry
+
+### SVN
+* `svn import -m "messagee" file_name http://path/to/svn/file`
+* `svn add `svn status . | grep "^?" | awk '{print $2}'`
+
 ### TODO
 * generate random emoji for os_icon
 * generate animal emoji for time according to TCM
