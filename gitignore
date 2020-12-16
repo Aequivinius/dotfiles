@@ -2,7 +2,7 @@ data
 Pipfile.lock
 *.ipynb_checkpoints
 *.pyc
-*.py.swp
+*.swp
 ._*
 .idea/*
 .DS_Store
