@@ -6,3 +6,5 @@ Pipfile.lock
 ._*
 .idea/*
 .DS_Store
+.env
+.flaskenv
