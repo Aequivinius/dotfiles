@@ -1,3 +1,8 @@
+### Setting up a new OSX
+   * Inspired by [this](https://sourabhbajaj.com/mac-setup/)
+   * Install `brew`, then `lastpass`, `typora`, `rectangle` etc; also `cheatsheet` and `flux` 
+   * Install `git`, then get my own .files sorted
+
 ### On .dotfiles on git
    * [original article](https://coderwall.com/p/ynu8xq/keep-your-dotfiles-in-git)
    * I keep stuff that I don't want on git in `variables` file
