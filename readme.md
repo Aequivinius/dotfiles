@@ -1,6 +1,6 @@
 ### Setting up a new OSX
    * Inspired by [this](https://sourabhbajaj.com/mac-setup/)
-   * Install `brew`, then `lastpass`, `typora`, `rectangle`, `google-drive etc; also `cheatsheet` and `flux` 
+   * Install `brew`, then `lastpass`, `typora`, `rectangle` etc; also `cheatsheet` and `flux` 
    * Install `git`, then get my own .files sorted (use `install.sh`)
 
 ### Fonts
