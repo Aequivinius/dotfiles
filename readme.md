@@ -11,7 +11,7 @@
    * I keep stuff that I don't want on git in `variables` file
 
 ### Stuff I like to have on a new OSX machine
-* Change to `/bin/zsh` in Terminal settings, install fonts (nerdfont)
+* Change to `/bin/zsh` in Terminal settings, install fonts (nerdfont), install solarized theme
 * Setting up my [zsh](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8) (but use [powerlevel10k](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb) instead 🐝)
 
 * python things
