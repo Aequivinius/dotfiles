@@ -104,6 +104,12 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# JAVA THINGS
+export JAVA_HOME=$(/usr/libexec/java_home -v17)
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias java17='export JAVA_HOME=$(/usr/libexec/java_home -v17)'
+
 alias wadado='_wadado() { echo "$@" | sed "/^$/d" | sort -R | head -n 3; }; _wadado'
 
 source ~/.dotfiles/variables
@@ -111,4 +117,4 @@ source ~/.dotfiles/variables
 alias np='source ~/.dotfiles/new_project.sh'
  
 alias gst='git status'
-alias goverwrite='git fetch --all; git reset --hard origin/master'
+alias goverwrite='git fetch --all; git reset --hard origin/main'

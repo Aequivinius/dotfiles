@@ -6,13 +6,17 @@
 ### Fonts
    * Latin Modern, nerdfont
 
-### On .dotfiles on git
+### .dotfiles and shell
    * [original article](https://coderwall.com/p/ynu8xq/keep-your-dotfiles-in-git)
    * I keep stuff that I don't want on git in `variables` file
+   * Change to `/bin/zsh` in Terminal settings, install fonts (nerdfont)
+   * Setting up my [zsh](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8) (but use [powerlevel10k](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb) instead 🐝)
 
-### Stuff I like to have on a new OSX machine
-* Change to `/bin/zsh` in Terminal settings, install fonts (nerdfont)
-* Setting up my [zsh](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8) (but use [powerlevel10k](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb) instead 🐝)
+### School things
+* Install `subversion`
+* Install `java` (and `openjdk@8`) through `brew`, don't forget to symlink
+* Then I can switch through the aliases in `zshrc` using `java8` and `java17`
+
 
 * python things
   * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
