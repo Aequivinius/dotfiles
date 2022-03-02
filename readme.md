@@ -1,7 +1,8 @@
 ### Setting up a new OSX
    * Inspired by [this](https://sourabhbajaj.com/mac-setup/)
-   * Install `brew`, then `lastpass`, `typora`, `rectangle` etc; also `cheatsheet` and `flux` 
+   * Install `brew`, then `bitwarden`, `typora`, `rectangle` etc; also (`microsoft-teams` and a way to sync my files)
    * Install `git`, then get my own .files sorted (use `install.sh`)
+   * also need to install office
 
 ### Fonts
    * Latin Modern, nerdfont
@@ -16,12 +17,9 @@
 * Install `subversion`
 * Install `java` (and `openjdk@8`) through `brew`, don't forget to symlink
 * Then I can switch through the aliases in `zshrc` using `java8` and `java17`
-
-
-* python things
-  * When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
+* `python`  
+* When installing python 3.8 on OSX, remember to run `Applications/Python3.8/Install Certificats.command` because otherwise `urllib` gets whiny
 * Use `vim_launcher.app` on OSX to open files with right-click in vim
-* `defaults write com.microsoft.Powerpoint AppleLanguages '("pt-BR")'`
 * `brew install git` and relaunch to update
 
 ### python
