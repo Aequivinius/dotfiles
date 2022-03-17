@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -118,3 +119,4 @@ alias np='source ~/.dotfiles/new_project.sh'
  
 alias gst='git status'
 alias goverwrite='git fetch --all; git reset --hard origin/main'
+export PATH="/usr/local/sbin:$PATH"

@@ -35,3 +35,6 @@ alias gst='git status'
 alias goverwrite='git fetch --all; git reset --hard origin/master'
 
 export PATH="$HOME/.poetry/bin:$PATH"
+export JAVA_PATH=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH="/usr/local/sbin:$PATH"
