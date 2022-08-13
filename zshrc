@@ -113,6 +113,8 @@ alias java17='export JAVA_HOME=$(/usr/libexec/java_home -v17)'
 
 alias wadado='_wadado() { echo "$@" | sed "/^$/d" | sort -R | head -n 3; }; _wadado'
 
+alias rnd='_rnd() { class=$@; year=${class:0:-1}; cat ~/bbb/$year/$class.txt | sort -R; }; _rnd'
+
 source ~/.dotfiles/variables
  
 alias np='source ~/.dotfiles/new_project.sh'
