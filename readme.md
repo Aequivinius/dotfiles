@@ -1,9 +1,8 @@
 ### Setting up a new OSX
    * Inspired by [this](https://sourabhbajaj.com/mac-setup/)
-   * Install `brew`, then `bitwarden`, `vlc`, `typora`, `rectangle` etc; also (`microsoft-teams` and a way to sync my files)
+   * Install `brew`, then `bitwarden`, `vlc`, `typora`, `rectangle`, `inetutils` etc; also (`microsoft-teams`)
    * Install `git`, then get my own .files sorted (use `install.sh`)
    * also need to install office
-   * install bitwarden via app storee
 
 ### Fonts
    * Latin Modern, nerdfont
