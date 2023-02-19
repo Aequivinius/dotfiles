@@ -6,7 +6,7 @@ ln -nsf $DIR/p10k.zsh ~/.p10k.zsh
 ln -nsf $DIR/bashrc ~/.bashrc
 
 # prevents 'last login' message
-touch .hushlogin
+touch ~/.hushlogin
 
 # echo "Installing vim plugins"
 # git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki
