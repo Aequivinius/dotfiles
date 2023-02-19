@@ -22,4 +22,4 @@
 
 # SVN
 * `svn import -m "messagee" file_name http://path/to/svn/file`
-* `svn add `svn status . | grep "^?" | awk '{print $2}'`
+* ```svn add `svn status . | grep "^?" | awk '{print $2}'```
