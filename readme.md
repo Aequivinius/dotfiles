@@ -12,6 +12,17 @@
    * Change to `/bin/zsh` in Terminal settings, install fonts (nerdfont)
    * Setting up my [zsh](https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8) (but use [powerlevel10k](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb) instead 🐝)
 
+# Vim
+* Mostly from [here](https://dev.to/jones268/use-vim-as-a-python-ide-31e6) and [here](https://realpython.com/vim-and-python-a-match-made-in-heaven/#utf-8-support)
+* make sure we got `vim` installed with `+python3`, then install `vim-plug`:
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    ```
+
+* `YouCompleteMe` plugin also needs `brew install cmake` and `cd ~/.vim/plugged/YouCompleteMe && python3 install.py`
+
 # School things
 * Install `subversion`
 * `python`  
