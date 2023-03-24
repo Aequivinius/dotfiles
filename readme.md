@@ -7,6 +7,9 @@
    * Latin Modern, nerdfont
 
 # .dotfiles and shell
+   * install `oh my zsh`: `curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh` and plugins:
+      * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+      * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
    * [original article](https://coderwall.com/p/ynu8xq/keep-your-dotfiles-in-git)
    * I keep stuff that I don't want on git in `variables` file
    * Change to `/bin/zsh` in Terminal settings, install fonts (nerdfont)
