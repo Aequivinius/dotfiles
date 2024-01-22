@@ -22,7 +22,7 @@
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    ```
+```
 
 * `YouCompleteMe` plugin also needs `brew install cmake` and `cd ~/.vim/plugged/YouCompleteMe && python3 install.py`
 
@@ -33,6 +33,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 # `python`
 * use `poetry`
+* [how to use `poetry` and `jupyter`](https://hippocampus-garden.com/jupyter_poetry_pipenv/)
 
 # SVN
 * `svn import -m "messagee" file_name http://path/to/svn/file`
